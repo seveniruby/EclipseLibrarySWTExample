@@ -1,0 +1,10 @@
+:: set all jar files in the classpath
+setlocal EnableDelayedExpansion
+::set classpath=./
+set classpath=./
+for %%f in (./lib/*.jar) do (set classpath=!classpath!;./lib/%%f)
+for %%f in (./lib/lib/*.jar) do (set classpath=!classpath!;./lib/lib/%%f)
+:: call rf
+"D:\Program Files (x86)\Java\jdk1.7.0_40\bin\java" -agentlib:jdwp=transport=dt_socket,address=localhost:9009,server=y,suspend=y  -Xmx512m -Dlog4j.debug -Dlog4j.configuration=log4j.properties -cp %classpath% org.robotframework.RobotFramework --debugfile jybot.log --loglevel DEBUG --outputdir results %* 
+
+::java -agentlib:jdwp=transport=dt_socket,address=localhost:9009,server=y,suspend=y -Xmx512m -Dlog4j.debug -Dlog4j.configuration=log4j.properties -cp %classpath% org.robotframework.RobotFramework --debugfile jybot.log --loglevel DEBUG --outputdir results %* 

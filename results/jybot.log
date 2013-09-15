@@ -1,0 +1,62 @@
+==============================================================================
++ START SUITE: TestSWT [ ]
+==============================================================================
++- START TEST: Test SWT [ ]
+------------------------------------------------------------------------------
++-- START KW: EclipseLibrary.Start Application In Separate Thread [ TestWindow | -debug -consolelog ]
++-- END KW: EclipseLibrary.Start Application In Separate Thread (11)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Set Eclipse Library Log Level [ DEBUG ]
++-- END KW: EclipseLibrary.Set Eclipse Library Log Level (4)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Start SWT Bot Bridge [ ]
++-- END KW: EclipseLibrary.Start SWT Bot Bridge (214)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find Button [ Add ]
+Instanciation of SWTWorkbenchBot
++-- END KW: EclipseLibrary.Find Button (1226)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Click Button [ ]
++-- END KW: EclipseLibrary.Click Button (102)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find Button [ Reset ]
++-- END KW: EclipseLibrary.Find Button (566)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Click Button [ ]
++-- END KW: EclipseLibrary.Click Button (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find Text [ 0 ]
++-- END KW: EclipseLibrary.Find Text (561)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Set Text Text [ set test ]
++-- END KW: EclipseLibrary.Set Text Text (34)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find Check Box [ Check Button 2 ]
++-- END KW: EclipseLibrary.Find Check Box (563)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Select Check Box [ ]
++-- END KW: EclipseLibrary.Select Check Box (38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find List [ 0 ]
++-- END KW: EclipseLibrary.Find List (562)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Select Items In List [ 3 | 4 | 5 ]
++-- END KW: EclipseLibrary.Select Items In List (39)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: BuiltIn.Sleep [ 3 ]
+Slept 3 seconds
++-- END KW: BuiltIn.Sleep (3006)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Select Indexed Items In List [ 0 | 1 ]
++-- END KW: EclipseLibrary.Select Indexed Items In List (69)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Find Radio [ 0 ]
++-- END KW: EclipseLibrary.Find Radio (560)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++-- START KW: EclipseLibrary.Click Radio [ ]
++-- END KW: EclipseLibrary.Click Radio (32)
+------------------------------------------------------------------------------
++- END TEST: Test SWT (7663)
+------------------------------------------------------------------------------
++ END SUITE: TestSWT (8645)
+==============================================================================

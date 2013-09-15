@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.7.7 (Jython 2.5.3 on java1.7.0_40)" generated="20130916 00:21:34.735">
+<suite source="D:\seven\projects\robotframework\netbean\EclipseLibraryTest\testcase\TestSWT.html" id="s1" name="TestSWT">
+<test id="s1-t1" timeout="" name="Test SWT">
+<kw type="kw" timeout="" name="EclipseLibrary.Start Application In Separate Thread">
+<doc>Launches application in a separate thread with the given arguments.</doc>
+<arguments>
+<arg>TestWindow</arg>
+<arg>-debug -consolelog</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:35.730" starttime="20130916 00:21:35.719"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Set Eclipse Library Log Level">
+<doc>Set the eclipse library log level</doc>
+<arguments>
+<arg>DEBUG</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:35.736" starttime="20130916 00:21:35.732"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Start SWT Bot Bridge">
+<doc>Start the SWTBot bridge</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:35.953" starttime="20130916 00:21:35.739"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find Button">
+<doc>Find the button with the given optionals mnemonic and index</doc>
+<arguments>
+<arg>Add</arg>
+</arguments>
+<msg timestamp="20130916 00:21:37.178" level="INFO">Instanciation of SWTWorkbenchBot</msg>
+<status status="PASS" endtime="20130916 00:21:37.181" starttime="20130916 00:21:35.955"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Click Button">
+<doc>Click on the button</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:37.286" starttime="20130916 00:21:37.184"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find Button">
+<doc>Find the button with the given optionals mnemonic and index</doc>
+<arguments>
+<arg>Reset</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:37.853" starttime="20130916 00:21:37.287"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Click Button">
+<doc>Click on the button</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:37.887" starttime="20130916 00:21:37.856"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find Text">
+<doc>Find the text with the given optionals mnemonic and index</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:38.450" starttime="20130916 00:21:37.889"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Set Text Text">
+<doc>Set text into text</doc>
+<arguments>
+<arg>set test</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:38.486" starttime="20130916 00:21:38.452"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find Check Box">
+<doc>Find the checkbox with the given optionals mnemonic and index</doc>
+<arguments>
+<arg>Check Button 2</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:39.051" starttime="20130916 00:21:38.488"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Select Check Box">
+<doc>Select the checkbox</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:39.091" starttime="20130916 00:21:39.053"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find List">
+<doc>Find the list with the given optional index</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:39.655" starttime="20130916 00:21:39.093"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Select Items In List">
+<doc>Select the item(s) with the given text(s) in the list</doc>
+<arguments>
+<arg>3</arg>
+<arg>4</arg>
+<arg>5</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:39.696" starttime="20130916 00:21:39.657"></status>
+</kw>
+<kw type="kw" timeout="" name="BuiltIn.Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20130916 00:21:42.702" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20130916 00:21:42.704" starttime="20130916 00:21:39.698"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Select Indexed Items In List">
+<doc>Select the indexed item(s) in the list</doc>
+<arguments>
+<arg>0</arg>
+<arg>1</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:42.779" starttime="20130916 00:21:42.710"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Find Radio">
+<doc>Find the radio with the given optionals mnemonic and index</doc>
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:43.341" starttime="20130916 00:21:42.781"></status>
+</kw>
+<kw type="kw" timeout="" name="EclipseLibrary.Click Radio">
+<doc>Click on the radio</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130916 00:21:43.375" starttime="20130916 00:21:43.343"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130916 00:21:43.377" starttime="20130916 00:21:35.714"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130916 00:21:43.381" starttime="20130916 00:21:34.736"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" id="s1" fail="0" name="TestSWT">TestSWT</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
